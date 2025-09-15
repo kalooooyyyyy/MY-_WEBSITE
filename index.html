@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Types of Programming Languages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>PROGRAMMING LANGUAGES</h1>
+    <p></p>
+</header>
+
+<section class="intro">
+        <h2>What is Programming Languages?</h2>
+        <p>Programming languages are formal systems used to communicate instructions to a computer. They allow humans to write code that a machine can understand and execute, enabling the creation of software, websites, games, mobile apps, and much more.
+A programming language is a set of syntax rules and semantics used to write programs that control the behavior of a computer. These languages translate human logic into machine-executable instructions.</p>
+    </section>
+
+
+<div class="container">
+
+    <div class="language-type">
+        <button class="lang-button" onclick="toggleDescription(this)">
+            1. Procedural Programming Languages
+        </button>
+        <div class="description">
+            Procedural programming is a type of imperative programming where the logic of the program is built around procedures or routines (also called functions or subroutines). It focuses on how to perform tasks, using a linear sequence of instructions.
+        </div>
+    </div>
+
+    <div class="language-type">
+        <button class="lang-button" onclick="toggleDescription(this)">
+            2. Object-Oriented Programming Languages
+        </button>
+        <div class="description">
+            Object-Oriented Programming (OOP) languages are designed around the concept of objects, which combine data and behavior into a single unit. This paradigm is especially powerful for modeling complex systems and promoting code reuse, scalability, and maintainability.
+        </div>
+    </div>
+
+    <div class="language-type">
+        <button class="lang-button" onclick="toggleDescription(this)">
+            3. Functional Programming Languages
+        </button>
+        <div class="description">
+             Functional programming languages are built around the concept of mathematical functions and emphasize immutability, pure functions, and declarative logic. This paradigm is especially popular in academic circles, data science, and concurrent systems due to its clarity and robustness.
+        </div>
+    </div>
+
+    <div class="language-type">
+        <button class="lang-button" onclick="toggleDescription(this)">
+            4. Scripting Languages
+        </button>
+        <div class="description">
+            Scripting languages are a category of programming languages designed to automate tasks, control other software applications, and simplify complex workflows. They're often interpreted rather than compiled, making them ideal for rapid development and prototyping.
+        </div>
+    </div>
+
+    <div class="language-type">
+        <button class="lang-button" onclick="toggleDescription(this)">
+            5. Logic Programming Languages
+        </button>
+        <div class="description">
+            Logic programming languages are built on formal logic, particularly predicate logic, and are designed to express facts and rules about problems within a system. Instead of telling the computer how to solve a problem, you describe what the problem is, and the language's inference engine figures out the solution.
+        </div>
+    </div>
+
+    <div class="language-type">
+        <button class="lang-button" onclick="toggleDescription(this)">
+            6. Markup Languages (Not exactly "programming")
+        </button>
+        <div class="description">
+            Markup languages are a special category of computer languages used to structure, annotate, and format text and data, rather than to perform computations or control logic like traditional programming languages. While they aren't "programming" in the strict sense, they play a crucial role in web development, document formatting, and data interchange.
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Programming Language Guide. All rights reserved.
+</footer>
+
+<!-- JavaScript -->
+<script>
+    function toggleDescription(button) {
+        const desc = button.nextElementSibling;
+        desc.style.display = desc.style.display === 'block' ? 'none' : 'block';
+    }
+</script>
+
+</body>
+</html>
+
+
+
